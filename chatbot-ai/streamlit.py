@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 # Load FAQs from JSON
-with open('data/faqs.json', 'r') as file:
+with open('chatbot-ai/data/faqs.json', 'r') as file:
     faqs = json.load(file)["faqs"]
 
 # Function to get response from chatbot
